@@ -91,6 +91,40 @@
             <img src="https://picsum.photos/200/300?grayscale" alt="">
         </h2>
     </section>
+   <section>
+    <form class="contactForm" novalidate name="myForm" onsubmit="return submitHandler">
+		<div class="formInput">
+			<label>
+				Fornavn *
+				<input type="text" name="fornavn" required>
+			</label>
+			<span class="status"></span>
+		</div>
+		<div class="formInput">
+			<label>
+				Efternavn *
+				<input type="text" name="efternavn" required>
+			</label>
+			<span class="status"></span>
+		</div>
+		<div class="formInput">
+			<label>
+				E-mail *
+				<input type="email" name="email" required>
+			</label>
+			<span class="status"></span>
+		</div>
+		<div class="formInput">
+			<label>
+				Besked *
+				<textarea name="besked"></textarea>
+			</label>
+			<span class="status"></span>
+		</div>
+
+		<button type="submit">Send</button>
+	</form>
+   </section>
     <footer>
         <p>kontakt</p>
         <p>Sofie Hilge Thygesen</p>
